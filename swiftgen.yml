@@ -1,0 +1,9 @@
+strings:
+  inputs:
+    - MacUninstaller/Resources/en.lproj/Localizable.strings
+  outputs:
+    - templateName: structured-swift5
+      output: MacUninstaller/Resources/Generated/Strings.swift
+      params:
+        publicAccess: true
+        enumName: L10n

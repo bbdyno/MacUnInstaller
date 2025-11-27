@@ -1,0 +1,71 @@
+/* 
+  Localizable.strings
+  MacUninstaller
+
+  Created by tngtng on 11/27/25.
+  
+*/
+
+// MARK: - Common
+"common.cancel" = "취소";
+"common.delete" = "삭제";
+"common.confirm" = "확인";
+"common.selectAll" = "전체 선택";
+"common.deselectAll" = "전체 해제";
+
+// MARK: - App
+"app.title" = "Mac App Uninstaller";
+
+// MARK: - Permission
+"permission.title" = "권한이 필요합니다";
+"permission.message" = "앱 클리너가 앱 관련 파일을 찾고 제거하려면 라이브러리 폴더에 접근해야 합니다.";
+"permission.libraryAccess" = "라이브러리 폴더 접근";
+"permission.libraryAccessDesc" = "앱 캐시, 환경설정, 지원 파일을 스캔하는 데 필요합니다.";
+"permission.fullDiskAccess" = "전체 디스크 접근";
+"permission.fullDiskAccessDesc" = "선택 사항. 완전한 정리를 위해 보호된 시스템 폴더를 스캔할 수 있습니다.";
+"permission.optional" = "선택";
+"permission.grantAccess" = "접근 권한 허용";
+"permission.openSettings" = "시스템 설정 열기";
+"permission.panel.message" = "접근 권한을 허용하려면 라이브러리 폴더를 선택하세요.";
+"permission.panel.prompt" = "접근 허용";
+
+// MARK: - Drop Zone
+"dropZone.title" = "앱을 여기에 놓으세요";
+"dropZone.subtitle" = ".app 파일을 드래그하여 관련 파일을 스캔합니다";
+"dropZone.badge.complete" = "완전 삭제";
+"dropZone.badge.safe" = "안전한 삭제";
+"dropZone.badge.fast" = "빠른 스캔";
+
+// MARK: - Scanning
+"scanning.title" = "스캔 중...";
+"scanning.subtitle" = "관련 파일 및 캐시를 찾고 있습니다";
+
+// MARK: - Deleting
+"deleting.title" = "삭제 중...";
+"deleting.subtitle" = "파일을 휴지통으로 이동 중입니다";
+
+// MARK: - Completed
+"completed.title" = "완료!";
+"completed.subtitle" = "선택한 모든 파일이 휴지통으로 이동되었습니다";
+"completed.button" = "다른 앱 정리하기";
+
+// MARK: - Error
+"error.title" = "오류";
+"error.invalidApp" = "유효하지 않은 앱 파일입니다";
+"error.button" = "다시 시도";
+
+// MARK: - File List
+"fileList.itemsSelected" = "%d개 항목 선택됨";
+"fileList.confirmTitle" = "삭제 확인";
+"fileList.confirmMessage" = "%d개 항목(%@)을 휴지통으로 이동하시겠습니까?";
+
+// MARK: - Categories
+"category.app" = "애플리케이션";
+"category.preferences" = "환경설정";
+"category.applicationSupport" = "앱 지원 파일";
+"category.caches" = "캐시";
+"category.logs" = "로그";
+"category.containers" = "컨테이너";
+"category.savedState" = "저장된 상태";
+"category.crashReports" = "충돌 보고서";
+"category.other" = "기타";

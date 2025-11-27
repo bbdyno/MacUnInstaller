@@ -1,0 +1,71 @@
+/* 
+  Localizable.strings
+  MacUninstaller
+
+  Created by tngtng on 11/27/25.
+  
+*/
+
+// MARK: - Common
+"common.cancel" = "Cancel";
+"common.delete" = "Delete";
+"common.confirm" = "Confirm";
+"common.selectAll" = "Select All";
+"common.deselectAll" = "Deselect All";
+
+// MARK: - App
+"app.title" = "Mac App Uninstaller";
+
+// MARK: - Permission
+"permission.title" = "Permission Required";
+"permission.message" = "App Cleaner needs access to your Library folder to find and remove app-related files.";
+"permission.libraryAccess" = "Library Folder Access";
+"permission.libraryAccessDesc" = "Required to scan for app caches, preferences, and support files.";
+"permission.fullDiskAccess" = "Full Disk Access";
+"permission.fullDiskAccessDesc" = "Optional. Enables scanning of protected system folders for complete cleanup.";
+"permission.optional" = "Optional";
+"permission.grantAccess" = "Grant Access";
+"permission.openSettings" = "Open System Settings";
+"permission.panel.message" = "Please select your Library folder to grant access.";
+"permission.panel.prompt" = "Grant Access";
+
+// MARK: - Drop Zone
+"dropZone.title" = "Drop Application Here";
+"dropZone.subtitle" = "Drag and drop .app file to scan for related files";
+"dropZone.badge.complete" = "Complete Removal";
+"dropZone.badge.safe" = "Safe Delete";
+"dropZone.badge.fast" = "Fast Scan";
+
+// MARK: - Scanning
+"scanning.title" = "Scanning...";
+"scanning.subtitle" = "Finding related files and caches";
+
+// MARK: - Deleting
+"deleting.title" = "Deleting...";
+"deleting.subtitle" = "Moving files to Trash";
+
+// MARK: - Completed
+"completed.title" = "Completed!";
+"completed.subtitle" = "All selected files have been moved to Trash";
+"completed.button" = "Clean Another App";
+
+// MARK: - Error
+"error.title" = "Error";
+"error.invalidApp" = "Invalid application file";
+"error.button" = "Try Again";
+
+// MARK: - File List
+"fileList.itemsSelected" = "%d items selected";
+"fileList.confirmTitle" = "Confirm Deletion";
+"fileList.confirmMessage" = "Are you sure you want to move %d items (%@) to Trash?";
+
+// MARK: - Categories
+"category.app" = "Application";
+"category.preferences" = "Preferences";
+"category.applicationSupport" = "Application Support";
+"category.caches" = "Caches";
+"category.logs" = "Logs";
+"category.containers" = "Containers";
+"category.savedState" = "Saved State";
+"category.crashReports" = "Crash Reports";
+"category.other" = "Other";
